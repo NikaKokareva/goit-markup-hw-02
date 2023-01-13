@@ -1,0 +1,78 @@
+:root {
+  --primiry-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --acent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+}
+/* body */
+ {
+  background-color: var(--primary-white-color);
+  color: var(--primiry-text-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* logo */
+.logo-blue {
+  color: var(--acent-color);
+}
+.logo-dark {
+  color: var(--title-text-color);
+}
+.logo-white {
+  color: var(--secondary-white-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
+}
+.site-nav .link.current {
+  color: var(--acent-color);
+}
+
+.auth-nav .link {
+  color: var(--primiry-text-color);
+}
+
+.auth-nav .link:hover,
+.site-nav.link:focus {
+  color: var(--acent-color);
+}
+
+/* hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+/* button */
+.button {
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+/* our advantages */
+.section-title {
+  color: var(--title-text-color);
+}
+/* what we do */
+.speciality-title {
+  color: var(--title-text-color);
+}
+/* our team */
+.team-title {
+  color: var(--title-text-color);
+}
+/* footer */
+.footer-text {
+  color: var(--footer-text-color);
+}
