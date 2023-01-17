@@ -1,5 +1,16 @@
+:root {
+  --primiry-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --acent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+  --active-color: #404bbf;
+}
+
 /* filter */
-h2 {
+
+.title {
   color: var(--title-text-color);
 }
 
