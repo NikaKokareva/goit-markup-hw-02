@@ -130,7 +130,7 @@ body {
 }
 .team-title {
   color: var(--title-text-color);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.1;
 }
